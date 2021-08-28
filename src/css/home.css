@@ -1,0 +1,102 @@
+.home-container {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/images/HomeBg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.home-container .container-description {
+  width: 26.5%;
+  position: relative;
+  left: 66%;
+  top: 130px;
+}
+
+.home-container .container-description .nahra-badge {
+  color: white;
+  text-align: center;
+  background-color: #293684;
+  width: 500px;
+  -webkit-box-shadow: -9px 15px 4px 3px rgba(0, 0, 0, 0.44);
+          box-shadow: -9px 15px 4px 3px rgba(0, 0, 0, 0.44);
+}
+
+.home-container .container-description .nahra-badge hr {
+  height: 2px;
+  background-color: #ff3b3b;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.home-container .container-description .nahra-badge .acronym {
+  font-size: 3em;
+  padding: 29px 0px 0px 0px;
+  margin: 90px 0 0 0;
+}
+
+.home-container .container-description .nahra-badge .description {
+  margin: 0px;
+  font-size: 1.3em;
+  padding-bottom: 25px;
+}
+
+.home-container .container-description .home-intro p {
+  width: 500px;
+  color: black;
+  margin: 50px 0;
+}
+
+.home-container .container-description .home-learn-more {
+  background-color: #293684;
+  padding: 17px 0;
+  border-radius: 3px;
+  width: 120px;
+  margin-left: 200px;
+}
+
+.home-container .container-description .home-learn-more a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 18px;
+}
+
+.home-content .card-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-content .card-main .card-container {
+  border: black solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 3px;
+  width: 25%;
+  height: 500px;
+}
+
+.home-content .card-main .card-container p {
+  padding: 0 45px;
+}
+
+.home-content .card-main .card-container .card-button {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=home.css.map */
