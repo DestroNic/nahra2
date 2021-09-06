@@ -77,7 +77,7 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 3px;
-                width: 25%;
+                width: 20%;
                 height: 550px;
                 box-shadow: $card-shadow;
                 p {
@@ -96,6 +96,32 @@
             }
         }
     }
+
+    .main-banner{
+        margin: 15% 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 0 200px;
+        .main-banner-left{
+        .background-square{
+            background-color: #ff3b3b;
+            width: 50%;
+            height: 300px;
+            position: absolute;
+            z-index: 0;
+            margin-top: 120px;
+        }
+        .body-img{
+            width: 75%;
+            position: relative;
+            margin-left: 10%;
+        }
+    }
+    .main-banner-right{
+        margin: 15px 75px;
+    }
+}
 
     
 

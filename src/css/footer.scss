@@ -1,9 +1,36 @@
 .footer{
     background-color: $main-blue;
-    height: 75px;
+    color: white;
+    height: 305px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
+    .footer-left{
+        margin-left: 3%;
+        .footer-left-header{
+            p{
+                font-size: 1.5em;
+            }
+            
+        }
+        .footer-left-body{
+            a{
+                text-decoration: none;
+                color: rgb(250, 106, 106);
+            }
+        }
+    }
+
+    .footer-center{
+        .footer-center-header{
+            .footer-left-header{
+                p{
+                    font-size: 1.5em;
+                }
+                
+            }
+        }
+    }
+
 }

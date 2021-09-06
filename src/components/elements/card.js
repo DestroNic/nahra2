@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import DefaultButton from './button';
 import ourWork from '../../assets/images/ourWork.svg';
 import howToHelp from '../../assets/images/howToHelp.svg';
 import resources from '../../assets/images/resources.svg';
@@ -40,9 +41,7 @@ const Cards = () => {
                             <p>{card.description}</p>
                             
                         </div>
-                        <div className="card-button">
-                            <p>Learn More</p>
-                        </div>
+                        <DefaultButton />
                     </div>
                 ))}
             </div>

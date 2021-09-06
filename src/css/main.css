@@ -131,7 +131,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 3px;
-  width: 25%;
+  width: 20%;
   height: 550px;
   -webkit-box-shadow: 10px -10px 4px 5px rgba(0, 0, 0, 0.44);
           box-shadow: 10px -10px 4px 5px rgba(0, 0, 0, 0.44);
@@ -150,6 +150,37 @@
 .home-content .card-main .card-container .card-button:hover {
   background-color: red;
   color: white;
+}
+
+.main-banner {
+  margin: 15% 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0 200px;
+}
+
+.main-banner .main-banner-left .background-square {
+  background-color: #ff3b3b;
+  width: 50%;
+  height: 300px;
+  position: absolute;
+  z-index: 0;
+  margin-top: 120px;
+}
+
+.main-banner .main-banner-left .body-img {
+  width: 75%;
+  position: relative;
+  margin-left: 10%;
+}
+
+.main-banner .main-banner-right {
+  margin: 15px 75px;
 }
 
 .content-container {
@@ -201,7 +232,8 @@
 
 .footer {
   background-color: #293684;
-  height: 75px;
+  color: white;
+  height: 305px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,5 +244,18 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.footer .footer-left {
+  margin-left: 3%;
+}
+
+.footer .footer-left .footer-left-header p {
+  font-size: 1.5em;
+}
+
+.footer .footer-left .footer-left-body a {
+  text-decoration: none;
+  color: #fa6a6a;
 }
 /*# sourceMappingURL=main.css.map */
